@@ -4,3 +4,15 @@
     line-height: 12px !important;
     white-space: pre-line !important;
 }
+.resume_timeline .resume_content .timelineItem_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+.resume_timeline .resume_content .timelineItem_date{
+    color: darkslategray;
+}
+.resume_timeline .resume_content .timelineItem_title{
+    font-size: small;
+    margin-top: 6px;
+    color: gray;
+}

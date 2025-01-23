@@ -25,4 +25,39 @@ export default {
        
     },
     about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?\n\n A porro omnis fuga enim vero facere nisi quae sit corrupti, deserunt deleniti totam, eos illum sed. Iusto, cum atque?",
+    experiences: [
+        {
+            title: "Web Developer",
+            Date: "2022-2023",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+        },
+        {
+            title: "Web Developer",
+            Date: "2022-2023",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+        },
+        {
+            title: "Web Developer",
+            Date: "2022-2023",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+        },
+    ],
+    educations: [
+        {
+            title: "Web Developer",
+            Date: "2022-2023",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+        },
+        {
+            title: "Web Developer",
+            Date: "2022-2023",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+        },
+        {
+            title: "Web Developer",
+            Date: "2022-2023",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+        },
+    ],
+    
 };
