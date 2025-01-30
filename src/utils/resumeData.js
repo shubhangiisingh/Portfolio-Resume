@@ -1,9 +1,11 @@
 import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { AssignmentOutlined, Instagram, Language, Twitter, WebOutlined, YouTube } from '@mui/icons-material';
-
-
+import { AssignmentOutlined, Instagram, Language, Twitter,  YouTube } from '@mui/icons-material';
+import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined';
+import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
+import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
+import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 
 export default {
     name:"Shubhangi Singh",
@@ -27,57 +29,56 @@ export default {
      
        
     },
-    about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?\n\n A porro omnis fuga enim vero facere nisi quae sit corrupti, deserunt deleniti totam, eos illum sed. Iusto, cum atque?",
+    about: "I am a passionate Front-End Developer skilled in HTML, CSS, JavaScript, React.js, Material-UI, and Bootstrap. I craft responsive, user-friendly, and visually appealing web applications with a strong focus on UI/UX, clean code, and scalability.  Proficient in React.js for dynamic interfaces and GitHub for seamless collaboration, I thrive in fast-paced environments, constantly learning and innovating. Excited to take on new challenges and build impactful web solutions!",
     experiences: [
         {
-            title: "Web Developer",
-            Date: "2022-2023",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+            title: "Web Developer – College Society Website",
+            Date: "November - December 2024",
+            description: "Designed and developed a responsive, user-friendly website to enhance the digital presence of the college society. Built the front-end using React.js, Material-UI and JavaScript for an engaging UI/UX experience.",
         },
         {
-            title: "Web Developer",
-            Date: "2022-2023",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+            title: "Event Coordinator & Participant – Technical & Cultural Events",
+            Date: "2023 - Present",
+            description: "Successfully organized and managed multiple team events and competitions, ensuring seamless execution. Demonstrated strong time management, organizational, and leadership abilities in high-pressure scenarios.",
         },
-        {
-            title: "Web Developer",
-            Date: "2022-2023",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
-        },
+        // {
+        //     title: "Web Developer",
+        //     Date: "2022-2023",
+        //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+        // },
     ],
     educations: [
         {
-            title: "Web Developer",
-            Date: "2022-2023",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+            title: "Bachelor of Technology (B.Tech) - Computer Science & Engineering",
+            Date: "2022-Present",
+            description: "Ajay Kumar Garg Engineering College, Ghaziabad",
         },
         {
-            title: "Web Developer",
-            Date: "2022-2023",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+            title: "Higher Secondary Education (Class 12)",
+            Date: "2021-2022",
+            description: "Lucknow Public School, Lucknow",
         },
         {
-            title: "Web Developer",
-            Date: "2022-2023",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
+            title: "Secondary Education (Class 10)",
+            Date: "2019-2020",
+            description: "Lucknow Public School, Lucknow",
         },
     ],
     services:[
 {
     title:"Web Developer",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
-    icon: <WebOutlined/>
+    description:"Building and maintaining websites and web applications. It includes front-end technologies like HTML, CSS, JavaScript, and frameworks such as React.js to create dynamic, responsive user interfaces.",
+    icon: <WebOutlinedIcon/>
 },
 {
-    title:"Web Developer",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
-    icon: <AssignmentOutlined/>
-},
+    title:"UI/UX",
+    description:" It involves understanding user needs, behaviors, and preferences to design interactive elements that are both functional and aesthetically pleasing.",
+    icon: <AutoAwesomeMosaicOutlinedIcon/>},
 
 {
-    title:"Web Developer",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, possimus?",
-    icon: <WebOutlined/>
+    title:"Version Control",
+    description:"Version Control is a system that helps developers manage and track changes to their codebase over time. It allows multiple team members to collaborate on the same project.",
+    icon: <Diversity3OutlinedIcon/>
 },
 
     ],
@@ -94,15 +95,15 @@ export default {
     },
     {
         title: "BACK-END",
-        description: ["Node.js", "Java", " Python", "Solidify"]
+        description: ["Node.js", "Express", ]
     },
     {
         title: "DATABASE",
-        description: ["Node.js", "Java", " Python", "Solidify"]
+        description: ["SQL", "MongoDB",]
     },
     {
-        title: "SOURCE CONTROL",
-        description: ["Node.js", "Java", " Python", "Solidify"]
+        title: "SOFT SKILLS",
+        description: ["Problem-Solving", "Collaboration", "Management", "Communication"]
     },
     ],
     information:[

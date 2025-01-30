@@ -22,12 +22,12 @@ const resume = () => {
         </Grid>
       </Grid>
       <Grid container className='section pb_45 '>
-        <Grid item className='section_title mb_30'>
+        <Grid item className='section_title '>
           <span></span>
           <h6 className='section_title_text'>Resume</h6></Grid>
       </Grid>
       <Grid item xs={12} >
-        <Grid container className='resume_timeline'>
+        <Grid container className='resume_timeline p_30'>
           <Grid item sm={12} md={6} xs={12}>
             <CustomTimeline title="Work Experience" icon={<WorkIcon />}>
               {resumeData.experiences.map(experience => (
@@ -49,8 +49,8 @@ const resume = () => {
                 <TimelineItem>
                   <CustomTimelineSeparator />
 
-                  <TimelineContent className='resume_content'>
-                    <Typography className='timelineItem_title'>{education.title}</Typography>
+                  <TimelineContent className='resume_content '>
+                    <Typography className='timelineItem_title '>{education.title}</Typography>
                     <Typography variant='caption' className='timelineItem_date'>{education.Date}</Typography>
                     <Typography variant='body2' className='timelineItem_description'>{education.description}</Typography>
                   </TimelineContent>
@@ -101,10 +101,10 @@ const resume = () => {
         </Grid>
       </Grid>
      
-      <Grid container spacing={2} className='section pt_45 pb_45'>
+      <Grid container spacing={2} className='section pt_45 pb_45 '>
         <Grid iten xs={12} lg={7}>
-          <Grid container>
-            <Grid item className='section_title mb_30'>
+          <Grid container className='p_30'>
+            <Grid item className='section_title mb_30 '>
               <span></span>
               <h6 className='section_title_text'>Contact Form</h6>
             </Grid>
@@ -127,7 +127,7 @@ const resume = () => {
           </Grid>
         </Grid>
         <Grid iten xs={12} lg={5}>
-        <Grid container>
+        <Grid container className='p_30'>
             <Grid item className='section_title mb_30'>
               <span></span>
               <h6 className='section_title_text'>Contact Information</h6>

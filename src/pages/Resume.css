@@ -1,7 +1,7 @@
 .aboutme_text{
     color: darkslategray;
     font-weight: smaller;
-    line-height: 12px !important;
+    line-height: 20px !important;
     white-space: pre-line !important;
 }
 .resume_timeline .resume_content .timelineItem_title{
@@ -26,18 +26,26 @@
     line-height: 35px !important;
     text-align: center;
 }
-.service .service_desc{
+.service .service_description{
     color: #989898 !important;
     border-color: #4e76fa !important;
     margin-right: 5px !important;
     text-align: center;
 }
+
 .service_icon >.MuiSvgIcon-root{
-    font-size: 46px !important;
-    margin-left: 0 !important;
+   margin-left: 0 !important;
     font-weight: 300 !important;
     color: darkslategray !important;
-}
+    font-size: 100% !important; 
+        max-width: 100% !important;
+        max-height: 100% !important;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    text-align: center;
+    }
 
 .skill{
     border-radius: 8px;

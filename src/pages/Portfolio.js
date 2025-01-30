@@ -75,7 +75,7 @@ const Portfolio = () => {
       </Grid>
 
       {/* Dialog for Project Details */}
-      <Dialog open={Boolean(projectDialog)} onClose={() => setProjectDialog(false)} className='projectDialog' fullWidth>
+      <Dialog open={Boolean(projectDialog)} onClose={() => setProjectDialog(false)} className='projectDialog' maxWidth={"lg"} fullWidth>
         {projectDialog && (
           <>
             <DialogTitle>{projectDialog.title}</DialogTitle>
