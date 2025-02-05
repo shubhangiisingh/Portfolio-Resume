@@ -6,7 +6,7 @@ import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined
 import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
 import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
 import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
-
+import MLCoEImage from '../assetss/images/MLCoE.png'; 
 export default {
     name:"Shubhangi Singh",
     title:"Web Developer",
@@ -118,14 +118,14 @@ export default {
     projects:[
         {
         tag: 'React',
-        image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-        title:'Project 1',
-        caption:'a short description',
-        description:'This is my project',
+        image:MLCoEImage,
+        title:'MLCoE Website',
+        caption:"Empowering Innovation, Advancing Intelligence. 🚀",
+        description:'The MLCoE Website is a modern and responsive web platform built using React.js for a seamless and dynamic user experience. It leverages Material-UI (MUI) for an elegant and consistent design, ensuring a visually appealing interface. The website is structured to provide information about the Machine Learning Centre of Excellence, including research projects, recruitment updates, events, and learning resources. With a focus on performance and accessibility, the site is optimized for both desktop and mobile users, offering an engaging and interactive experience. 🚀',
         links:[
-            {link: 'https//www.google.com', icon: <YouTube/>},
-            {link: 'https//www.google.com', icon: <GitHubIcon/>},
-            {link: 'https//www.google.com', icon: <Language/>},
+            // {link: 'https//www.google.com', icon: <YouTube/>},
+            {link: 'https://ml-co-e-website-7r2ty20xz-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
+            // {link: 'https//www.google.com', icon: <Language/>},
         ]
         },
         {
@@ -135,9 +135,9 @@ export default {
             caption:'a short description',
             description:'This is my project',
             links:[
-                {link: 'https//www.google.com', icon: <YouTube/>},
+                // {link: 'https//www.google.com', icon: <YouTube/>},
                 {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                {link: 'https//www.google.com', icon: <Language/>},
+                // {link: 'https//www.google.com', icon: <Language/>},
             ]
             },
             {
@@ -147,9 +147,9 @@ export default {
                 caption:'a short description',
                 description:'This is my project',
                 links:[
-                    {link: 'https//www.google.com', icon: <YouTube/>},
+                    // {link: 'https//www.google.com', icon: <YouTube/>},
                     {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                    {link: 'https//www.google.com', icon: <Language/>},
+                    // {link: 'https//www.google.com', icon: <Language/>},
                 ]
                 },
                 {
@@ -159,9 +159,9 @@ export default {
                     caption:'a short description',
                     description:'This is my project',
                     links:[
-                        {link: 'https//www.google.com', icon: <YouTube/>},
+                        // {link: 'https//www.google.com', icon: <YouTube/>},
                         {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                        {link: 'https//www.google.com', icon: <Language/>},
+                        // {link: 'https//www.google.com', icon: <Language/>},
                     ]
                     },
                     {
@@ -171,9 +171,9 @@ export default {
                         caption:'a short description',
                         description:'This is my project',
                         links:[
-                            {link: 'https//www.google.com', icon: <YouTube/>},
+                            // {link: 'https//www.google.com', icon: <YouTube/>},
                             {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                            {link: 'https//www.google.com', icon: <Language/>},
+                            // {link: 'https//www.google.com', icon: <Language/>},
                         ]
                         },
                         {
@@ -183,9 +183,9 @@ export default {
                             caption:'a short description',
                             description:'This is my project',
                             links:[
-                                {link: 'https//www.google.com', icon: <YouTube/>},
+                                // {link: 'https//www.google.com', icon: <YouTube/>},
                                 {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                                {link: 'https//www.google.com', icon: <Language/>},
+                                // {link: 'https//www.google.com', icon: <Language/>},
                             ]
                             },
     ]
