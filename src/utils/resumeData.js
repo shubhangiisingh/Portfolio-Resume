@@ -124,7 +124,7 @@ export default {
         description:'The MLCoE Website is a modern and responsive web platform built using React.js for a seamless and dynamic user experience. It leverages Material-UI (MUI) for an elegant and consistent design, ensuring a visually appealing interface. The website is structured to provide information about the Machine Learning Centre of Excellence, including research projects, recruitment updates, events, and learning resources. With a focus on performance and accessibility, the site is optimized for both desktop and mobile users, offering an engaging and interactive experience. 🚀',
         links:[
             // {link: 'https//www.google.com', icon: <YouTube/>},
-            {link: 'https://ml-co-e-website-7r2ty20xz-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
+            {link: 'https://ml-co-e-website-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
             // {link: 'https//www.google.com', icon: <Language/>},
         ]
         },
