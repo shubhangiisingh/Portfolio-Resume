@@ -7,6 +7,7 @@ import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaic
 import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
 import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import MLCoEImage from '../assetss/images/MLCoE.png'; 
+import Project2 from '../assetss/images/Project2.png';
 export default {
     name:"Shubhangi Singh",
     title:"Web Developer",
@@ -129,19 +130,19 @@ export default {
         ]
         },
         {
-            tag: 'Python',
-            image: 'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-            title:'Project 2',
-            caption:'a short description',
-            description:'This is my project',
+            tag: 'Next',
+            image: Project2,
+            title:'E-Commerce Website',
+            caption:'Learning Clerk Authentication',
+            description:"The Quick Cart e-commerce platform, built with Next.js and Tailwind CSS, delivers a seamless shopping experience with a sleek, responsive design. Featuring Clerk authentication.",
             links:[
                 // {link: 'https//www.google.com', icon: <YouTube/>},
-                {link: 'https//www.google.com', icon: <GitHubIcon/>},
+                {link: 'https://quick-cart-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
                 // {link: 'https//www.google.com', icon: <Language/>},
             ]
             },
             {
-                tag: 'Java',
+                tag: 'React',
                 image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
                 title:'Project 3',
                 caption:'a short description',
@@ -165,7 +166,7 @@ export default {
                     ]
                     },
                     {
-                        tag: 'Java',
+                        tag: 'React',
                         image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
                         title:'Project 5',
                         caption:'a short description',
@@ -177,7 +178,7 @@ export default {
                         ]
                         },
                         {
-                            tag: 'css',
+                            tag: 'Next',
                             image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
                             title:'Project 6',
                             caption:'a short description',
