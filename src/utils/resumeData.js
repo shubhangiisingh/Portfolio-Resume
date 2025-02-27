@@ -137,7 +137,7 @@ export default {
             description:"The Quick Cart e-commerce platform, built with Next.js and Tailwind CSS, delivers a seamless shopping experience with a sleek, responsive design. Featuring Clerk authentication.",
             links:[
                 // {link: 'https//www.google.com', icon: <YouTube/>},
-                {link: 'https://quick-cart-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
+                {link: 'https://quick-cart-jpyk-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
                 // {link: 'https//www.google.com', icon: <Language/>},
             ]
             },
