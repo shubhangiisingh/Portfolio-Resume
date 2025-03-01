@@ -50,7 +50,7 @@ const Profile = () => {
                     ))}
                 </CustomTimeline>
                 <div className="btn_container">
-                    <a href="/Shubhangi_Resume.pdf" download="Shubhangi_Resume.pdf">
+                    <a href="/res.shubhangi.pdf" download="res.shubhangi.pdf">
                         <CustomButton text={"Download Resume"} icon={<GetAppIcon />} />
                     </a>
                 </div>
