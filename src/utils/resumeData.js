@@ -10,10 +10,11 @@ import MLCoEImage from '../assetss/images/MLCoE.png';
 import Project2 from '../assetss/images/Project2.png';
 export default {
     name:"Shubhangi Singh",
-    title:"Web Developer",
+    title:"Front-End Developer",
     birthday:"March 13, 2003",
     email:"shubhangi@gmail.com",
     address:"Ghaziyabad, Uttar Pradesh",
+    phone:'7755079518',
     github:"shubhangiisingh",
     socials:{
         github:{
@@ -33,7 +34,7 @@ export default {
     about: "I am a passionate Front-End Developer skilled in HTML, CSS, JavaScript, React.js, Material-UI, and Bootstrap. I craft responsive, user-friendly, and visually appealing web applications with a strong focus on UI/UX, clean code, and scalability.  Proficient in React.js for dynamic interfaces and GitHub for seamless collaboration, I thrive in fast-paced environments, constantly learning and innovating. Excited to take on new challenges and build impactful web solutions!",
     experiences: [
         {
-            title: "Web Developer – College Society Website",
+            title: "Front-End Developer – College Society Website",
             Date: "November - December 2024",
             description: "Designed and developed a responsive, user-friendly website to enhance the digital presence of the college society. Built the front-end using React.js, Material-UI and JavaScript for an engaging UI/UX experience.",
         },
@@ -67,7 +68,7 @@ export default {
     ],
     services:[
 {
-    title:"Web Developer",
+    title:"Front-End Development",
     description:"Building and maintaining websites and web applications. It includes front-end technologies like HTML, CSS, JavaScript, and frameworks such as React.js to create dynamic, responsive user interfaces.",
     icon: <WebOutlinedIcon/>
 },
@@ -94,13 +95,17 @@ export default {
          "Material UI",
         ],
     },
+    // {
+    //     title: "BACK-END",
+    //     description: ["Node.js", "Express", ]
+    // },
+    // {
+    //     title: "DATABASE",
+    //     description: ["SQL", "MongoDB",]
+    // },
     {
-        title: "BACK-END",
-        description: ["Node.js", "Express", ]
-    },
-    {
-        title: "DATABASE",
-        description: ["SQL", "MongoDB",]
+        title: "PROGRAMMING SKILLS",
+        description: ["C/C++", "Python", "JavaScript",]
     },
     {
         title: "SOFT SKILLS",
@@ -111,7 +116,7 @@ export default {
         {
             address: 'Address: Flat no. 212, tower 3, dream homes, wave city',
             phone:'7755079518',
-            job:'Web Developer',
+            job:'Front-End Developer',
             email: 'shubhangisingh0013@gmail.com',
             github:'shubhangiisingh'
         }
@@ -141,53 +146,53 @@ export default {
                 // {link: 'https//www.google.com', icon: <Language/>},
             ]
             },
-            {
-                tag: 'React',
-                image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-                title:'Project 3',
-                caption:'a short description',
-                description:'This is my project',
-                links:[
-                    // {link: 'https//www.google.com', icon: <YouTube/>},
-                    {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                    // {link: 'https//www.google.com', icon: <Language/>},
-                ]
-                },
-                {
-                    tag: 'React',
-                    image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-                    title:'Project 4',
-                    caption:'a short description',
-                    description:'This is my project',
-                    links:[
-                        // {link: 'https//www.google.com', icon: <YouTube/>},
-                        {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                        // {link: 'https//www.google.com', icon: <Language/>},
-                    ]
-                    },
-                    {
-                        tag: 'React',
-                        image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-                        title:'Project 5',
-                        caption:'a short description',
-                        description:'This is my project',
-                        links:[
-                            // {link: 'https//www.google.com', icon: <YouTube/>},
-                            {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                            // {link: 'https//www.google.com', icon: <Language/>},
-                        ]
-                        },
-                        {
-                            tag: 'Next',
-                            image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-                            title:'Project 6',
-                            caption:'a short description',
-                            description:'This is my project',
-                            links:[
-                                // {link: 'https//www.google.com', icon: <YouTube/>},
-                                {link: 'https//www.google.com', icon: <GitHubIcon/>},
-                                // {link: 'https//www.google.com', icon: <Language/>},
-                            ]
-                            },
+            // {
+            //     tag: 'React',
+            //     image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
+            //     title:'Project 3',
+            //     caption:'a short description',
+            //     description:'This is my project',
+            //     links:[
+            //         // {link: 'https//www.google.com', icon: <YouTube/>},
+            //         {link: 'https//www.google.com', icon: <GitHubIcon/>},
+            //         // {link: 'https//www.google.com', icon: <Language/>},
+            //     ]
+            //     },
+            //     {
+            //         tag: 'React',
+            //         image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
+            //         title:'Project 4',
+            //         caption:'a short description',
+            //         description:'This is my project',
+            //         links:[
+            //             // {link: 'https//www.google.com', icon: <YouTube/>},
+            //             {link: 'https//www.google.com', icon: <GitHubIcon/>},
+            //             // {link: 'https//www.google.com', icon: <Language/>},
+            //         ]
+            //         },
+            //         {
+            //             tag: 'React',
+            //             image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
+            //             title:'Project 5',
+            //             caption:'a short description',
+            //             description:'This is my project',
+            //             links:[
+            //                 // {link: 'https//www.google.com', icon: <YouTube/>},
+            //                 {link: 'https//www.google.com', icon: <GitHubIcon/>},
+            //                 // {link: 'https//www.google.com', icon: <Language/>},
+            //             ]
+            //             },
+            //             {
+            //                 tag: 'Next',
+            //                 image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
+            //                 title:'Project 6',
+            //                 caption:'a short description',
+            //                 description:'This is my project',
+            //                 links:[
+            //                     // {link: 'https//www.google.com', icon: <YouTube/>},
+            //                     {link: 'https//www.google.com', icon: <GitHubIcon/>},
+            //                     // {link: 'https//www.google.com', icon: <Language/>},
+            //                 ]
+            //                 },
     ]
 };

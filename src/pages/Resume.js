@@ -102,7 +102,7 @@ const resume = () => {
       </Grid>
      
       <Grid container spacing={2} className='section pt_45 pb_45 '>
-        <Grid iten xs={12} lg={7}>
+        {/* <Grid iten xs={12} lg={7}>
           <Grid container className='p_30'>
             <Grid item className='section_title mb_30 '>
               <span></span>
@@ -125,7 +125,7 @@ const resume = () => {
               </Grid>
             </Grid>
           </Grid>
-        </Grid>
+        </Grid> */}
         <Grid iten xs={12} lg={5}>
         <Grid container className='p_30'>
             <Grid item className='section_title mb_30'>
@@ -141,7 +141,7 @@ const resume = () => {
                 </Grid>
                 <Grid item>
                     <Typography className='contact_info'>
-                  <span>Phone:</span>{resumeData.address}
+                  <span>Phone:</span>{resumeData.phone}
                 </Typography>
                 </Grid>
                 
