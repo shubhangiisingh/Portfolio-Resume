@@ -8,6 +8,7 @@ import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
 import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import MLCoEImage from '../assetss/images/MLCoE.png'; 
 import Project2 from '../assetss/images/Project2.png';
+import chatapp from '../assetss/images/chatapp.png';
 export default {
     name:"Shubhangi Singh",
     title:"Front-End Developer",
@@ -146,18 +147,18 @@ export default {
                 // {link: 'https//www.google.com', icon: <Language/>},
             ]
             },
-            // {
-            //     tag: 'React',
-            //     image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-            //     title:'Project 3',
-            //     caption:'a short description',
-            //     description:'This is my project',
-            //     links:[
-            //         // {link: 'https//www.google.com', icon: <YouTube/>},
-            //         {link: 'https//www.google.com', icon: <GitHubIcon/>},
-            //         // {link: 'https//www.google.com', icon: <Language/>},
-            //     ]
-            //     },
+            {
+                tag: 'React',
+                image: chatapp,
+                title:'ChatBot using ReactJS',
+                caption:'A sleek, responsive chatbot interface built using ReactJS and styled with custom CSS. It provides real-time interaction with users through a clean UI, mimicking human-like conversation flow and ensuring an engaging user experience.',
+                description:'A sleek, responsive chatbot interface built using ReactJS and styled with custom CSS. It provides real-time interaction with users through a clean UI, mimicking human-like conversation flow and ensuring an engaging user experience.',
+                links:[
+                    // {link: 'https//www.google.com', icon: <YouTube/>},
+                    {link: 'https://chat-bot-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
+                    // {link: 'https//www.google.com', icon: <Language/>},
+                ]
+                },
             //     {
             //         tag: 'React',
             //         image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
