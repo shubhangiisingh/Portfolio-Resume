@@ -1,6 +1,7 @@
 import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { AssignmentOutlined, Instagram, Language, Twitter,  YouTube } from '@mui/icons-material';
 import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined';
 import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
@@ -9,6 +10,7 @@ import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import MLCoEImage from '../assetss/images/MLCoE.png'; 
 import Project2 from '../assetss/images/Project2.png';
 import chatapp from '../assetss/images/chatapp.png';
+import Calc from '../assetss/images/Calc.png';
 export default {
     name:"Shubhangi Singh",
     title:"Front-End Developer",
@@ -130,8 +132,8 @@ export default {
         caption:"Empowering Innovation, Advancing Intelligence. 🚀",
         description:'The MLCoE Website is a modern and responsive web platform built using React.js for a seamless and dynamic user experience. It leverages Material-UI (MUI) for an elegant and consistent design, ensuring a visually appealing interface. The website is structured to provide information about the Machine Learning Centre of Excellence, including research projects, recruitment updates, events, and learning resources. With a focus on performance and accessibility, the site is optimized for both desktop and mobile users, offering an engaging and interactive experience. 🚀',
         links:[
-            // {link: 'https//www.google.com', icon: <YouTube/>},
-            {link: 'https://ml-co-e-website-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
+            {link: 'https://github.com/shubhangiisingh/MLCoE-Website', icon: <GitHubIcon/>},
+            {link: 'https://ml-co-e-website-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <ArrowOutwardIcon/>},
             // {link: 'https//www.google.com', icon: <Language/>},
         ]
         },
@@ -142,8 +144,8 @@ export default {
             caption:'Learning Clerk Authentication',
             description:"The Quick Cart e-commerce platform, built with Next.js and Tailwind CSS, delivers a seamless shopping experience with a sleek, responsive design. Featuring Clerk authentication.",
             links:[
-                // {link: 'https//www.google.com', icon: <YouTube/>},
-                {link: 'https://quick-cart-jpyk-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
+                {link: 'https://github.com/shubhangiisingh/Quick-Cart', icon: <GitHubIcon/>},
+                {link: 'https://quick-cart-jpyk-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <ArrowOutwardIcon/>},
                 // {link: 'https//www.google.com', icon: <Language/>},
             ]
             },
@@ -154,23 +156,23 @@ export default {
                 caption:'A sleek, responsive chatbot interface built using ReactJS and styled with custom CSS. It provides real-time interaction with users through a clean UI, mimicking human-like conversation flow and ensuring an engaging user experience.',
                 description:'A sleek, responsive chatbot interface built using ReactJS and styled with custom CSS. It provides real-time interaction with users through a clean UI, mimicking human-like conversation flow and ensuring an engaging user experience.',
                 links:[
-                    // {link: 'https//www.google.com', icon: <YouTube/>},
-                    {link: 'https://chat-bot-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <GitHubIcon/>},
+                    {link: 'https://github.com/shubhangiisingh/ChatBot', icon: <GitHubIcon/>},
+                    {link: 'https://chat-bot-git-master-shubhangi-singhs-projects-317eb744.vercel.app', icon: <ArrowOutwardIcon/>},
                     // {link: 'https//www.google.com', icon: <Language/>},
                 ]
                 },
-            //     {
-            //         tag: 'React',
-            //         image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-            //         title:'Project 4',
-            //         caption:'a short description',
-            //         description:'This is my project',
-            //         links:[
-            //             // {link: 'https//www.google.com', icon: <YouTube/>},
-            //             {link: 'https//www.google.com', icon: <GitHubIcon/>},
-            //             // {link: 'https//www.google.com', icon: <Language/>},
-            //         ]
-            //         },
+                {
+                    tag: 'React',
+                    image:Calc,
+                    title:'Scientific Calculator',
+                    caption:'Scientific Calculator using Vite and JavaScript ',
+                    description:'A sleek and efficient scientific calculator built with Vite and JavaScript. It supports advanced mathematical functions like trigonometry, logarithms and more — designed for quick, accurate calculations with a modern user experience.',
+                    links:[
+                        {link: 'https://github.com/shubhangiisingh/ScientificCalculator', icon: <GitHubIcon/>},
+                        {link: 'https://scientific-calcul-git-f74c9f-shubhangi-singhs-projects-317eb744.vercel.app', icon: <ArrowOutwardIcon/>},
+                        // {link: 'https//www.google.com', icon: <Language/>},
+                    ]
+                    },
             //         {
             //             tag: 'React',
             //             image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
