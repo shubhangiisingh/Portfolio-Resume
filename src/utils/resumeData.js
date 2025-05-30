@@ -15,7 +15,7 @@ export default {
     name:"Shubhangi Singh",
     title:"Front-End Developer",
     birthday:"March 13, 2003",
-    email:"shubhangi@gmail.com",
+    email:"shubhangisingh0013@gmail.com",
     address:"Ghaziyabad, Uttar Pradesh",
     phone:'7755079518',
     github:"shubhangiisingh",
