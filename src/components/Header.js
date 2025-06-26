@@ -41,7 +41,7 @@ const Header = () => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <CustomButton text={"Hire Me"} icon={<TelegramIcon />} />
+          {/* <CustomButton text={"Hire Me"} icon={<TelegramIcon />} /> */}
         </div>
       </Navbar.Collapse>
     </Navbar>
