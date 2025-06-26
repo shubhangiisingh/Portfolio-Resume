@@ -11,6 +11,7 @@ import MLCoEImage from '../assetss/images/MLCoE.png';
 import Project2 from '../assetss/images/Project2.png';
 import chatapp from '../assetss/images/chatapp.png';
 import Calc from '../assetss/images/Calc.png';
+import Hotel from '../assetss/images/Hotel-Booking.png';
 export default {
     name:"Shubhangi Singh",
     title:"Front-End Developer",
@@ -153,7 +154,7 @@ export default {
                 tag: 'React',
                 image: chatapp,
                 title:'ChatBot using ReactJS',
-                caption:'A sleek, responsive chatbot interface built using ReactJS and styled with custom CSS. It provides real-time interaction with users through a clean UI, mimicking human-like conversation flow and ensuring an engaging user experience.',
+                caption:'Hello Bot',
                 description:'A sleek, responsive chatbot interface built using ReactJS and styled with custom CSS. It provides real-time interaction with users through a clean UI, mimicking human-like conversation flow and ensuring an engaging user experience.',
                 links:[
                     {link: 'https://github.com/shubhangiisingh/ChatBot', icon: <GitHubIcon/>},
@@ -173,18 +174,19 @@ export default {
                         // {link: 'https//www.google.com', icon: <Language/>},
                     ]
                     },
-            //         {
-            //             tag: 'React',
-            //             image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-            //             title:'Project 5',
-            //             caption:'a short description',
-            //             description:'This is my project',
-            //             links:[
-            //                 // {link: 'https//www.google.com', icon: <YouTube/>},
-            //                 {link: 'https//www.google.com', icon: <GitHubIcon/>},
-            //                 // {link: 'https//www.google.com', icon: <Language/>},
-            //             ]
-            //             },
+                    {
+                        tag: 'React',
+                        image:Hotel,
+                        title:'Hotel-Booking Website Frontend',
+                        caption:'Book your stay in a blink.',
+                        description:'A sleek and efficient hotel-booking front-end with React + Vite, pairing a sleek, mobile-first UI with Clerk-powered authentication. Guests sign in securely, browse rooms, and lock in reservations—all within an SPA that loads in milliseconds and feels as smooth as the experience of the stay itself.',
+                        links:[
+                            // {link: 'https//www.google.com', icon: <YouTube/>},
+                            {link: 'https://github.com/shubhangiisingh/HotelBooking', icon: <GitHubIcon/>},
+                             {link: 'https://hotel-booking-fro-git-3ba56f-shubhangi-singhs-projects-317eb744.vercel.app', icon: <ArrowOutwardIcon/>},
+                            // {link: 'https//www.google.com', icon: <Language/>},
+                        ]
+                        },
             //             {
             //                 tag: 'Next',
             //                 image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
