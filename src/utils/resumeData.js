@@ -12,6 +12,7 @@ import Project2 from '../assetss/images/Project2.png';
 import chatapp from '../assetss/images/chatapp.png';
 import Calc from '../assetss/images/Calc.png';
 import Hotel from '../assetss/images/Hotel-Booking.png';
+import Admin from '../assetss/images/Admin.png';
 export default {
     name:"Shubhangi Singh",
     title:"Front-End Developer",
@@ -187,17 +188,18 @@ export default {
                             // {link: 'https//www.google.com', icon: <Language/>},
                         ]
                         },
-            //             {
-            //                 tag: 'Next',
-            //                 image:'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg',
-            //                 title:'Project 6',
-            //                 caption:'a short description',
-            //                 description:'This is my project',
-            //                 links:[
-            //                     // {link: 'https//www.google.com', icon: <YouTube/>},
-            //                     {link: 'https//www.google.com', icon: <GitHubIcon/>},
-            //                     // {link: 'https//www.google.com', icon: <Language/>},
-            //                 ]
-            //                 },
+                        {
+                            tag: 'React',
+                            image:Admin,
+                            title:'React Responsive Admin Panel',
+                            caption:'Admin Panel using ReactJS',
+                            description:'A sleek and efficient admin panel built with ReactJS. It provides a clean and responsive interface for managing user accounts, content, and settings, ensuring a smooth user experience.',
+                            links:[
+                                // {link: 'https//www.google.com', icon: <YouTube/>},
+                                {link: 'https://github.com/shubhangiisingh/Responsive-Admin-Pannel', icon: <GitHubIcon/>},
+                                 {link: 'https://responsive-admin-pannel.vercel.app/', icon: <ArrowOutwardIcon/>},
+                                // {link: 'https//www.google.com', icon: <Language/>},
+                            ]
+                            },
     ]
 };
