@@ -6,6 +6,7 @@ import { AssignmentOutlined, Instagram, Language, Twitter,  YouTube } from '@mui
 import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined';
 import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
 import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
+import BookmarkAddedIcon from '@mui/icons-material/BookmarkAdded';
 import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import MLCoEImage from '../assetss/images/MLCoE.png'; 
 import Project2 from '../assetss/images/Project2.png';
@@ -19,7 +20,7 @@ export default {
     birthday:"March 13, 2003",
     email:"shubhangisingh0013@gmail.com",
     address:"Ghaziyabad, Uttar Pradesh",
-    phone:'7755079518',
+    // phone:'7755079518',
     github:"shubhangiisingh",
     socials:{
         github:{
@@ -38,6 +39,12 @@ export default {
     },
     about: "I am a passionate Front-End Developer skilled in HTML, CSS, JavaScript, React.js, Material-UI, and Bootstrap. I craft responsive, user-friendly, and visually appealing web applications with a strong focus on UI/UX, clean code, and scalability.  Proficient in React.js for dynamic interfaces and GitHub for seamless collaboration, I thrive in fast-paced environments, constantly learning and innovating. Excited to take on new challenges and build impactful web solutions!",
     experiences: [
+        {
+            title: "Software Developer Intern – BlueStock Fintech",
+            Date: "April - June 2025",
+            description: " Designed and implemented Bluestock’s portfolio management section using Material-UI, enabling 200\+\
+investors to manage portfolios seamlessly and improving user retention by 35%.",
+        },
         {
             title: "Front-End Developer – College Society Website",
             Date: "November - December 2024",
@@ -72,6 +79,11 @@ export default {
         },
     ],
     services:[
+        {
+    title:"Data Structures & Algorithms",
+    description:"Solved 250+ DSA problems on Leetcode, improving problem-solving skills, speed and programming proficiency.",
+    icon: <BookmarkAddedIcon/>
+},
 {
     title:"Front-End Development",
     description:"Building and maintaining websites and web applications. It includes front-end technologies like HTML, CSS, JavaScript, and frameworks such as React.js to create dynamic, responsive user interfaces.",
@@ -91,23 +103,25 @@ export default {
     ],
     skills:[
         {
-        title: 'FRONT-END',
+        title: 'DEVELOPMENT',
         description:[
-         "React.js",
-         "JavaScript",
-         "TypeScript",
-         "BootStrap",
-         "Material UI",
+        "HTML5",
+        "CSS",
+        "ReactJS",
+        "MaterialUI",
+        "Bootstrap", 
+        "Tailwind", 
+        "SinglePage Application", 
         ],
     },
-    // {
-    //     title: "BACK-END",
-    //     description: ["Node.js", "Express", ]
-    // },
-    // {
-    //     title: "DATABASE",
-    //     description: ["SQL", "MongoDB",]
-    // },
+    {
+        title: "EXPLORING",
+        description: ["Node.js", "Express", "Axios"]
+    },
+    {
+        title: "DATABASE",
+        description: ["SQL", "MongoDB",]
+    },
     {
         title: "PROGRAMMING SKILLS",
         description: ["C/C++", "Python", "JavaScript",]
@@ -120,7 +134,7 @@ export default {
     information:[
         {
             address: 'Address: Flat no. 212, tower 3, dream homes, wave city',
-            phone:'7755079518',
+            // phone:'7755079518',
             job:'Front-End Developer',
             email: 'shubhangisingh0013@gmail.com',
             github:'shubhangiisingh'

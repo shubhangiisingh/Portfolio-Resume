@@ -140,9 +140,9 @@ const resume = () => {
                 </Typography>
                 </Grid>
                 <Grid item>
-                    <Typography className='contact_info'>
+                    {/* <Typography className='contact_info'>
                   <span>Phone:</span>{resumeData.phone}
-                </Typography>
+                </Typography> */}
                 </Grid>
                 
                 <Grid item>
