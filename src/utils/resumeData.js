@@ -2,8 +2,8 @@ import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import { AssignmentOutlined, Instagram, Language, Twitter,  YouTube } from '@mui/icons-material';
-import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined';
+// import { AssignmentOutlined, Instagram, Language, Twitter,  YouTube } from '@mui/icons-material';
+// import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined';
 import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
 import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
 import BookmarkAddedIcon from '@mui/icons-material/BookmarkAdded';
@@ -42,8 +42,7 @@ export default {
         {
             title: "Software Developer Intern – BlueStock Fintech",
             Date: "April - June 2025",
-            description: " Designed and implemented Bluestock’s portfolio management section using Material-UI, enabling 200\+\
-investors to manage portfolios seamlessly and improving user retention by 35%.",
+            description: " Designed and implemented Bluestock’s portfolio management section using Material-UI, enabling 200+investors to manage portfolios seamlessly and improving user retention by 35%.",
         },
         {
             title: "Front-End Developer – College Society Website",
