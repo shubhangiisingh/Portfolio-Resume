@@ -8,7 +8,7 @@ import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineContent from '@mui/lab/TimelineContent';
 import SchoolIcon from '@mui/icons-material/School';
 import { TimelineDot } from '@mui/lab'
-import CustomButton from '../components/Button'
+
 
 const resume = () => {
   return (

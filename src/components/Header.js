@@ -5,8 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 import {  NavLink, useLocation } from 'react-router-dom';
 import { HomeRounded } from '@mui/icons-material';
 import resumeData from '../utils/resumeData'
-import CustomButton from './Button'
-import TelegramIcon from '@mui/icons-material/Telegram';
+
 
 const Header = () => {
   const location = useLocation(); 
