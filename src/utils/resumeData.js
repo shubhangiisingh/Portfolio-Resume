@@ -14,7 +14,7 @@ import chatapp from '../assetss/images/chatapp.png';
 import Calc from '../assetss/images/Calc.png';
 import Hotel from '../assetss/images/Hotel-Booking.png';
 import Admin from '../assetss/images/Admin.png';
-export default {
+const resumeData ={
     name:"Shubhangi Singh",
     title:"Front-End Developer",
     birthday:"March 13, 2003",
@@ -216,3 +216,4 @@ export default {
                             },
     ]
 };
+export default resumeData;

@@ -14,7 +14,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
         <TimelineContent className="timeline_content">
             {link ? (
                 <Typography className="timelineItem_text">
-                    <span>{title}:</span> <a href={link} target="_blank">{text}</a>
+                    <span>{title}:</span> <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>
                 </Typography>
             ) : (
                 <Typography className="timelineItem_text">
